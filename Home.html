@@ -1,0 +1,217 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>Portfolio site</title>
+		<link rel="stylesheet"
+			  href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"> 
+					<!--Normalize. css is a customisable CSS file that makes browsers render all elements more consistently and in line with modern standards-->
+		<link ref="stylesheet"
+			  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+			  integrity="sha512 KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" />
+		
+		<!--fonts used-->
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;800&display=swap" rel="stylesheet">
+		
+		<link rel="stylesheet" href="portfolio.css"> <!--link to css file-->
+
+		<!-- awsome font icons -->
+		<script src="https://kit.fontawesome.com/07b0a44bcd.js" crossorigin="anonymous"></script>
+	</head>
+
+	<body>
+		
+		<header class="header">
+			<button class="nav-toggle" aria-label="toggle navigation">
+				<span class="hamburger"></span>
+			</button>
+			
+			<nav class="nav">
+				<div class="logo">
+					<img src="images/signature.png" alt="logo" width="150">
+				</div>
+				<ul class="nav__list">
+					<li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+					<li class="nav__item"><a href="#services" class="nav__link">About</a></li>
+<!--					<li class="nav__item"><a href="#about" class="nav__link">About me</a></li>-->
+					<li class="nav__item"><a href="#work" class="nav__link">Project</a></li>
+				</ul>
+			</nav>
+		</header>
+		
+		<!-- Introduction -->
+		<section class="intro" id="home"> 
+			<h1 class="section__title section__title--intro"> 
+				Hi, I am <strong> Junxiang Zhang </strong>
+			</h1>
+			<p class="section__subtitle section__subtitle--intro"> Digital Learning Specialist</p>
+			<img src="images\DSC_0628.JPG" alt="a picture of me smiling" class="intro__img">
+		</section>
+			
+		
+		<!-- my services -->
+		<section class= "my-services" id="services"> 
+			<h2 class="section__title section__title--services">Skills </h2>
+			
+			<div class="services">
+				<div class="service">
+					<h3>Immersive Learning</h3>
+					<ul class="service_immersive">
+						<li>Blender</li>
+						<li>Unity 3D</li>
+						<li>Augmented Reality</li>
+						<li>Virtual Reality</li>
+					</ul>
+				</div> <!--service-->
+	
+				<div class="service">
+					<h3>Multimedia Design</h3>
+					<ul class="service_multimedia">
+						<li>Adobe Photoshop</li>
+						<li>Adobe Premiere Pro</li>
+						<li>Adobe After Effects</li>
+					</ul>
+				</div> <!--service-->
+				
+					<div class="service">
+						<h3>Coding</h3>
+					<ul class="service_coding">
+						<li>HTML</li>
+						<li>CSS</li>
+						<li>Python</li>
+						<li>C# in Unity</li>
+					</ul>
+				</div> <!--service-->
+			</div>
+			
+			<a href="#work" class="btn">My Projects</a>
+		</section>
+		
+		<!-- About me-->
+		<section class="about-me" id="about">
+			<h2 class="section__title section__title--about"> Who I am</h2>
+			<p class="section__subtitle section__subtitle--about">Digital Learning Designer based in Montreal</p>
+			
+			<div class="about--me__body">
+				<p>My name is Junxiang. This portfolio represents the collection of my abilities and skills in multimedia development and visual design. I have a strong background in multimedia design and online education. 
+					I feel passionate about technology, especially how it improves student learning in terms of enhanced E-learning experience.</p>
+				
+				<p>I have two-year work experience, focusing on design and develop multimedia content to facilitate online learning and teaching. 
+					My research interest is exploring the implementation of VR and AR technology in education to provide an immersive learning experience for all students.</p>
+			</div>
+			
+			<img src="images\DSC_0103.JPG" alt="about me" width="300" class="about-me__img">
+			
+			<a href="#cv" class="cv" >Download CV</a>
+			
+		</section>
+		
+		<!-- My Work-->
+		<section class="my-work" id="work">
+			<h2 class="section__title">My Projects</h2>
+			<p class="section__subtitle section__subtitle--work"> A selection of my projects </p>
+			
+			<div class="portfolio">
+				<!-- portfolio#1-->
+				<a href="ExcellentFarm.html" class="portfolio__item">
+					<div class="portfolio__image">
+						<img src="images/VRfarm_title.png" atl="Course Design" width="500" class="portfolio__img">
+						<div class="image__overlay image__overlay--blur">
+							<h3 class="image__title">Excellent Farm</h3>
+							<p class="image__description">VR Game</p>
+						</div>
+					</div>
+				</a>
+				
+				<!-- portfolio#2-->
+				<a href="ARstorytelling.html" class="portfolio__item">
+					<div class="portfolio__image">
+						<img src="images/ARstoryCover.png" atl="VR experience" width="300" class="portfolio__img">
+						<div class="image__overlay image__overlay--blur">
+							<h3 class="image__title">AR Storytelling: Finding Mother</h3>
+	    					<p class="image__description"> AR Application Development</p>
+						</div>
+					</div>
+					
+				</a>
+				
+				<!-- portfolio#3-->
+				<a href="virtualTour.html" class="portfolio__item">
+					<div class="portfolio__image">
+						<img src="images/virtual_squarCover.png" atl="AR experience" width="300" class="portfolio__img">
+						<div class="image__overlay image__overlay--blur">
+							<h3 class="image__title">Virtual Tour</h3>
+							<p class="image__description">Adobe Captivate</p>
+						</div>
+				</div>
+				</a>
+				
+				
+				<!-- portfolio#4-->
+				<a href="360video.html" class="portfolio__item">
+					<div class="portfolio__image">
+						<img src="images/360video_cover.png" atl="Video production" width="300" class="portfolio__img">
+						<div class="image__overlay image__overlay--blur">
+							<h3 class="image__title">Conceptual Film: IT</h3>
+							<p class="image__description">360° Video</p>
+						</div>
+					</div>
+					</a>
+				
+				<!-- portfolio#5-->
+				<a href="ARfish.html" class="portfolio__item">
+					<div class="portfolio__image">
+					<img src="images/petCover.png" atl="3D animation" width="300" class="portfolio__img">
+						<div class="image__overlay image__overlay--blur">
+							<h3 class="image__title">AR Fish Pet</h3>
+							<p class="image__description">AR Application</p>
+						</div>
+				</div>
+				</a>
+
+				<!-- portfolio#6-->
+				<a href="ARDinosaurWikipedia.html" class="portfolio__item">
+					<div class="portfolio__image">
+					<img src="images/wiki_cover_sq.png" atl="3D animation" width="300" class="portfolio__img">
+						<div class="image__overlay image__overlay--blur">
+							<h3 class="image__title">AR Dinosaur Wikipedia</h3>
+							<p class="image__description"> AR Mediated Learning</p>
+						</div>
+				</div>
+				</a>
+				
+			</div>
+		
+		</section>
+		
+		
+		<!--footer-->
+		<footer class="footer">
+			<a href= "tobyzjx@gmail.com" class="footer__link"> tobyzjx@gmail.com </a>
+			<ul class="social-list">
+				<li class="social-list__item">
+					<a class="social-list__link" href="https://github.com/tobyelephant?tab=repositories" target="_blank">
+						<i class="fa-brands fa-github"></i>  <!--github icon from awsomefont-->
+					</a>
+				</li>
+
+				<li class="social-list__item"> 
+					<a class="social-list__link" href="#" target="_blank"> 
+						<i class="fa-brands fa-medium"></i>
+					</a>
+				</li>
+
+				<li class="social-list__item">
+					 <a class="social-list__link" href="#" target="_blank"> 
+						<i class="fa-regular fa-file"></i>
+					</a>
+					</li>
+			</ul>
+		</footer>
+
+		<script src="index.js"> </script>
+		<script src="https://code.jquery.com/jquery-3.6.0.js"> </script>
+		<script src="ScrollBar.js"> </script>
+	</body>
+</html>

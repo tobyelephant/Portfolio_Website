@@ -713,3 +713,10 @@ iframe {
     align-items: center;
     justify-content: center;
 }
+
+.demo-display{
+	width: 80%;
+	display: block;
+	margin:auto;
+	border: 2px solid var(--clr-accent);
+}

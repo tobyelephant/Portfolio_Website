@@ -612,6 +612,13 @@ li{
 	margin-top: 1.5em;
 }
 
+/* for cellphone screen600px */
+@media (max-width: 600px){
+	.image__overlay {
+		opacity: 1;
+	}
+}
+
 /* footer */
 
 .footer{

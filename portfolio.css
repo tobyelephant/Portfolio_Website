@@ -616,6 +616,7 @@ li{
 @media (max-width: 600px){
 	.image__overlay {
 		opacity: 1;
+		background: rgba(53, 53, 53, 0.5);
 	}
 }
 

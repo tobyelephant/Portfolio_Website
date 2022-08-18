@@ -527,6 +527,7 @@ li{
 .portfolio__item{
 	background-color: var(--clr-accent);
 	overflow: hidden;
+	margin:0.25rem;
 	
 }
 

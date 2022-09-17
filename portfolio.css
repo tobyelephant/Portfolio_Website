@@ -139,7 +139,7 @@ h3{ font-size: var(--fs-h3)}
 	font-size:var(--fs-h3);
 }
 
-.section__subtitle--about,
+/* .section__subtitle--about, */
 .section__subtitle--intro{
 	background:var(--clr-accent);
 	padding: .25em 1em;
@@ -491,6 +491,7 @@ li{
 	}
 	
 	.section__subtitle--about{
+		background:var(--clr-accent);
 		grid-column: 1/ -1;
 		grid-row: 2;
 		position: relative;
@@ -498,6 +499,7 @@ li{
 		width: calc(100% + 4em);
 		padding-left: 2em;
 		padding-right: calc(300px + 2em);
+		
 	}
 	
 	.about-me__img {

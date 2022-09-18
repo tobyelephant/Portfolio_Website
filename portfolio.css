@@ -285,7 +285,7 @@ h3{ font-size: var(--fs-h3)}
 		flex-direction:column;
 		justify-content: space-evenly;
 		align-items: center;
-		margin-right:6rem;
+		margin-right:8rem;
 		margin-left:1rem;
 		padding:0;
 	}
@@ -364,6 +364,7 @@ h3{ font-size: var(--fs-h3)}
 	.hamburger::before {top: 6px;}
 	.hamburger::after {bottom: 6px;}
 	
+	
 }
 
 /*Intro section*/
@@ -393,6 +394,7 @@ h3{ font-size: var(--fs-h3)}
 			"img subtitle";
 		grid-template-columns: min-content max-content;
 	}
+	
 }
 
 	.intro__img{
@@ -483,6 +485,7 @@ li{
 			"text img";
 		grid-column-gap: 2em;
 	}
+	
 	
 	.section__title--about
 	{
@@ -717,6 +720,13 @@ li{
 		margin-right: 10%;
 		padding:0 10px;
 	}
+	.container2{
+		position: relative;
+		overflow: hidden;
+		width: 100%;
+		padding-top: 20%;
+	}
+	
 
 }
 
@@ -731,4 +741,29 @@ iframe {
 	display: block;
 	margin:auto;
 	border: 2px solid var(--clr-accent);
+}
+
+.container{
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	padding-top: 80%;
+
+}
+
+.container2{
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	padding-top: 80%;
+}
+
+.slides{
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
 }

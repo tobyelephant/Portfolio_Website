@@ -714,10 +714,9 @@ li{
 {
 	display: grid;
 	grid-template-columns: 1fr 2fr;
-	gap: 0;
+	gap: 2rem;
 	margin-top: 0;
-	margin-left: 10%;
-	margin-right: 10%;
+	margin-right: 5%;
 	padding:5px;
 	
 }
@@ -725,10 +724,15 @@ li{
 .detail_text 
 {
 	text-align:left;
-	padding-top: 15px;
-	padding-right: 10px;
+	padding-right: 1rem;
+	font-style: italic;
+	font-weight:var(--fw-bold);
+	color:var(--clr-accent);
 }
-
+.detail_element
+{
+	border: 5px solid var(--clr-accent);
+}
 
 
 /* detail descriptions here with gifs */

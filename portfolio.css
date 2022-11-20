@@ -235,7 +235,7 @@ h3{ font-size: var(--fs-h3)}
 	}
 
 	.nav .fixed{ 
-		transition:cubic-bezier(0.075, 0.82, 0.165, 1);
+		transition:cubic-bezier(0.075, 0.82, 0.165, 1),;
 	}
 }
 .nav__link{
@@ -742,7 +742,14 @@ li{
 	padding:5px 5px;
 }
 
+ol li {
+    list-style: decimal;
+    list-style-position: inside;
+	text-align: left;
+}
+
 /* detail descriptions here with gifs */
+
 .project_details
 {
 	display: grid;

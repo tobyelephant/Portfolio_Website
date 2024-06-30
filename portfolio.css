@@ -472,7 +472,7 @@ li{
 }
 
 .about-me__img{
-	box-shadow:var(--boxShadow);
+	box-shadow: none;
 }
 
 @media (min-width:600px) {

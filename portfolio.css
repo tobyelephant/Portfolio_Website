@@ -378,9 +378,10 @@ h3{ font-size: var(--fs-h3)}
 }
 
 .intro__img{
-	box-shadow:var(--boxShadow);
 	width:500px;
-	/* border-radius: 50%; */
+	position:fixed;
+	bottom:50px;
+	left:50px;
 }
 
 .section__subtitle--intro{

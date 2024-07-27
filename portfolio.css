@@ -393,7 +393,7 @@ h3{ font-size: var(--fs-h3)}
 		display: grid;
 		width: min-content;
 		margin: 0 auto;
-		grid-column-gap: 1.5em;
+		grid-column-gap: 6em;
 		grid-template-areas:
 			"img title"
 			"img subtitle";

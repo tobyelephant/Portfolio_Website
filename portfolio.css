@@ -377,6 +377,10 @@ h3{ font-size: var(--fs-h3)}
 	position: relative;
 }
 
+.img1 {
+	object-fit: cover;
+}
+
 .intro__img{
 	width:500px;
 	position:fixed;
